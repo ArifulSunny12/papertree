@@ -1,0 +1,208 @@
+
+body{
+	width: 100%;
+}
+
+
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.red{
+	color: #E00808;
+}
+.btn-danger{	
+background-color: #E00808;	
+}
+
+.btn-danger-finance{
+	background-color: white;
+	color: #E00808;
+}
+
+.finance-bgimage{
+	 background-image: linear-gradient(to right, rgba(0,0,0,.4), rgba(0, 0, 0,.3)),url("./image/finance.jpg");
+	 background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.marketing-image{
+	width: 100%;
+	border: 10px solid white;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+
+}
+
+.image-size{
+	width: 100%;
+}
+
+.circle-icon {
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    
+}
+
+
+.circle-icon-2 {
+    background: #E00808;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    
+}
+
+
+
+
+
+/*
+
+
+.row{
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+*/
+
+
+ /*for mobile view view start*/
+@media only screen and (max-width: 600px){
+
+.ltsp{
+
+		letter-spacing: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		color: red ;
+		float: left;
+
+	}
+.logo-image{
+	width: 45px;
+	height: 30px;
+	border-radius: 5px;
+	float: left;
+	margin-top: 10px;
+	}
+
+.logotitle{
+
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+.mpadding{
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top:3px;
+	padding-bottom: 3px;
+}
+
+.carouselText{
+		font-size: 12px;
+		margin-bottom: 0px;
+	}
+
+	.carouselText1{
+		font-size: 8px;
+		margin-bottom: 0px;
+	}
+	
+	.captionPossition{
+		
+	}
+
+
+    
+  }
+/*for mobile view view end*/
+
+
+  /*for Tab view start*/
+@media only screen and (min-width: 601px){
+
+	.logo-image{
+	width: 50px;
+	height: 30px;
+	border-radius: 5px;
+	float: left;
+	margin-top: 10px;
+	}
+
+	.logotitle{
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+	.ltsp{
+	letter-spacing: 2px;
+	color: green;
+	}
+
+
+	.carouselText{
+		font-size: 30px;
+		margin-bottom: 6px;
+	}
+
+	.carouselText1{
+		font-size: 15px;
+		margin-bottom: 0px;
+	}
+
+
+  }
+/*for Tab view end*/
+
+
+
+
+/*for Desktop view start*/
+@media only screen and (min-width: 769px){
+	.logo-image{
+	width: 50px;
+	height: 30px;
+	border-radius: 5px;
+	}
+
+
+
+	.ltsp{
+	letter-spacing: 3px;
+	color: blue;
+	}
+
+	.carouselText{
+		font-size: 40px;
+	}
+
+	.carouselText1{
+		font-size: 20px;
+		margin-bottom: 0px;
+	}
+
+
+}
+/*for Desktop view end*/
